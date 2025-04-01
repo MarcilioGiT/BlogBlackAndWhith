@@ -184,3 +184,22 @@ li a {
         opacity: 1;
     }
 }
+/* Estilo para o rodapé */
+/* Estilo para o rodapé fixado na parte inferior */
+footer {
+    position: fixed;
+    bottom: 0; /* Fixa o rodapé na parte inferior */
+    left: 0;
+    width: 100%; /* Faz o rodapé ocupar toda a largura */
+    background-color: #575454; /* Cor de fundo preta */
+    color: white; /* Cor do texto branca */
+    text-align: center;
+    padding: 10px 0;
+    z-index: 1000; /* Garante que o rodapé fique acima de outros elementos */
+}
+
+footer p {
+    font-size: 14px;
+    margin: 0;
+}
+
